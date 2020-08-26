@@ -8,6 +8,6 @@ name_collection.push yield
 (array [i])
 i += 1 
 end 
-collection 
+name_collection 
 end 
 my_collect (list) {|i| i.split (" ").first} 
