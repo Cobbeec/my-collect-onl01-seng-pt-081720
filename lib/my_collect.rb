@@ -1,4 +1,4 @@
-def collect (collections)
+def my_collect (array)
 i = 0 
 collection = [ ]
 while i < array.length 
@@ -7,4 +7,4 @@ i += 1
 end 
 collection 
 end 
-collect (list) {|i| i.split (" ").first} 
+my_collect (list) {|i| i.split (" ").first} 
