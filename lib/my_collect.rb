@@ -7,3 +7,4 @@ i += 1
 end 
 collection 
 end 
+collect (list) {|i| i.split (" ").first} 
